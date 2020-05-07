@@ -62,16 +62,18 @@ common:
 
 osx:
 	ADDON_LDFLAGS = -lxml2 -liconv
-	ADDON_INCLUDES_EXCLUDE = libs/libfbxsdk_2019.5/include/libxml2/%
+	ADDON_INCLUDES_EXCLUDE = libs/libfbxsdk/include/libxml2/%
 
 ios:
 	ADDON_LDFLAGS = -lxml2 -liconv
-	ADDON_INCLUDES_EXCLUDE = libs/libfbxsdk_2019.5/include/libxml2/%
+	ADDON_INCLUDES_EXCLUDE = libs/libfbxsdk/include/libxml2/%
 
 linux:
 	ADDON_LDFLAGS = -lxml2
-	ADDON_INCLUDES_EXCLUDE = libs/libfbxsdk_2019.5/include/libxml2/%
+	ADDON_INCLUDES_EXCLUDE = libs/libfbxsdk/include/libxml2/%
 
 linux64:
-	ADDON_LDFLAGS = -lxml2
-	ADDON_INCLUDES_EXCLUDE = libs/libfbxsdk_2019.5/include/libxml2/%
+  	ADDON_LDFLAGS = -lxml2 	
+ 	ADDON_INCLUDES_EXCLUDE = libs/libfbxsdk/include/libxml2/%
+
+
